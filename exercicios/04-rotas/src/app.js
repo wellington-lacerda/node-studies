@@ -4,7 +4,7 @@ const app = express()
 app.get('/', (req,res) => {
     res.send("<h1>Wellcome to my website</h1>")
 })
-app.get("/ola/:nome/:idade/:cor", (req,res) => {
+app.get("/dados/:nome/:idade/:cor", (req,res) => {
     res.send(req.params)
 })
 

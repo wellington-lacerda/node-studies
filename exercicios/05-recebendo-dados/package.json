@@ -1,0 +1,12 @@
+{
+  "name": "05-recebendo-dados",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --watch src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
